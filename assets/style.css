@@ -1,0 +1,131 @@
+/* Container for scatterplot and game details - keeps details next to the scatterplot */
+.scatterplot-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Scatterplot styling */
+.scatterplot {
+    flex: 1;
+}
+
+/* Game details styling */
+.game-details {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* General card styling */
+.game-details-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers date and other details horizontally */
+}
+
+/* Header styling */
+.game-details-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Date container styling */
+.date-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.date-segment-day, .date-segment-month, .date-segment-year {
+    text-align: center;
+}
+
+.date-label-day, .date-label-month, .date-label-year {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.date-value-day, .date-value-month, .date-value-year {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Club names container */
+.club-names-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.club-segment-home, .club-segment-away {
+    text-align: center;
+    flex: 1;
+}
+
+.club-name-home, .club-name-away {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #444;
+}
+
+.home-label, .away-label {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Logos and score container */
+.score-and-logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.club-logo-home, .club-logo-away {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.score-container {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #222;
+    gap: 10px;
+}
+
+.score-home, .score-away {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #222;
+}
+
+.score-separator {
+    font-size: 2em;
+    font-weight: bold;
+    color: #555;
+}
+
+
+
+
